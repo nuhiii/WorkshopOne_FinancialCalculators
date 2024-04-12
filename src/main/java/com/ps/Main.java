@@ -1,8 +1,11 @@
 package com.ps;
+
 public class Main {
     public static void main(String[] args) {
-//        // Calculator One
-//        MortgageCalculator mortgageCalculator = new MortgageCalculator();
+        // Greet the User
+        System.out.println("Welcome to the Financial Calculator System!");
+        // Calculator One
+        MortgageCalculator mortgageCalculator = new MortgageCalculator();
 //        // Calculator Two
 //        FutureValue futureValue = new FutureValue();
 //        // Calculator Three
