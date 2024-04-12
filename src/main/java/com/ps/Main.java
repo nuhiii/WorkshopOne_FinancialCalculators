@@ -10,6 +10,7 @@ public class Main {
 //        FutureValue futureValue = new FutureValue();
 //        // Calculator Three
 //        PresentValue presentValue = new PresentValue();
+        System.out.println(mortgageCalculator.monthlyPayment());
         System.out.println("No Errors! Successful Execution!");
     }
 }
