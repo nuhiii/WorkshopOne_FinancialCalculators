@@ -10,6 +10,7 @@ public class Main {
         //System.out.println(mortgageCalculator.totalInterest());
         // Calculator Two
         FutureValue futureValue = new FutureValue();
+        System.out.println(futureValue.futureValAmount());
 //        // Calculator Three
 //        PresentValue presentValue = new PresentValue();
         System.out.println("No Errors! Successful Execution!");

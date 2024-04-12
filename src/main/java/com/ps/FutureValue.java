@@ -7,6 +7,7 @@ public class FutureValue {
     float interestPercent;
     float interestDecimal;
     float numYears;
+    final int daysInYear = 365;
     FutureValue(){
         Scanner scanner = new Scanner(System.in);
         System.out.print("Please enter the value of your one time deposit: $");
@@ -18,5 +19,7 @@ public class FutureValue {
         this.numYears = scanner.nextInt();
         scanner.close();
     }
-
+    public double futureValAmount(){
+        return deposit * Math.pow((1 + (interestDecimal/daysInYear)), (daysInYear * numYears));
+    }
 }
