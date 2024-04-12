@@ -12,7 +12,7 @@ public class MortgageCalculator {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Please enter the principal amount for the mortgage: $");
         this.principalAmount = scanner.nextFloat();
-        System.out.print("Now please enter the interest rate: %");
+        System.out.print("Now, please enter the interest rate: %");
         this.interestPercent = scanner.nextFloat();
         this.interestDecimal = this.interestPercent/100;
         System.out.print("Finally, please enter the length of the loan in years: ");

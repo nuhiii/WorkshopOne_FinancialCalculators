@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aee1466d-25d0-4a59-9743-01ba35e36b37" name="Changes" comment="calculate monthly payment for mortgage loan">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="aee1466d-25d0-4a59-9743-01ba35e36b37" name="Changes" comment="calculate the total interest accrued over the life of the loan">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ps/FutureValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ps/FutureValue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ps/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ps/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ps/MortgageCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ps/MortgageCalculator.java" afterDir="false" />
     </list>
@@ -64,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712932390446</updated>
-      <workItem from="1712932391541" duration="10422000" />
+      <workItem from="1712932391541" duration="10965000" />
     </task>
     <task id="LOCAL-00001" summary="set up classes for the three different calculators">
       <option name="closed" value="true" />
@@ -90,7 +90,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712944278668</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="calculate the total interest accrued over the life of the loan">
+      <option name="closed" value="true" />
+      <created>1712947860385</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712947860385</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +108,7 @@
     <MESSAGE value="set up classes for the three different calculators" />
     <MESSAGE value="set up template for using the mortgage calculator first and receive user input data" />
     <MESSAGE value="calculate monthly payment for mortgage loan" />
-    <option name="LAST_COMMIT_MESSAGE" value="calculate monthly payment for mortgage loan" />
+    <MESSAGE value="calculate the total interest accrued over the life of the loan" />
+    <option name="LAST_COMMIT_MESSAGE" value="calculate the total interest accrued over the life of the loan" />
   </component>
 </project>
