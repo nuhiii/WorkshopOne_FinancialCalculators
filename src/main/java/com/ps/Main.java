@@ -11,6 +11,7 @@ public class Main {
 //        // Calculator Three
 //        PresentValue presentValue = new PresentValue();
         System.out.println(mortgageCalculator.monthlyPayment());
+        System.out.println(mortgageCalculator.totalInterest());
         System.out.println("No Errors! Successful Execution!");
     }
 }

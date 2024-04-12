@@ -26,4 +26,8 @@ public class MortgageCalculator {
         //System.out.println(monthlyPayDenominator);
         return monthlyPayNumerator/monthlyPayDenominator;
     }
+    public double totalInterest(){
+        //double totalPayments = monthlyPayment() * (monthInYear * loanLength);
+        return (monthlyPayment() * (monthInYear * loanLength)) - principalAmount;
+    }
 }
