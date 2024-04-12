@@ -11,6 +11,7 @@ public class Main {
         // Calculator Two
         FutureValue futureValue = new FutureValue();
         System.out.println(futureValue.futureValAmount());
+        System.out.println(futureValue.totalInterest());
 //        // Calculator Three
 //        PresentValue presentValue = new PresentValue();
         System.out.println("No Errors! Successful Execution!");

@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aee1466d-25d0-4a59-9743-01ba35e36b37" name="Changes" comment="set up template for the future value calculator and receive data from user input">
+    <list default="true" id="aee1466d-25d0-4a59-9743-01ba35e36b37" name="Changes" comment="calculate future value of deposit for corresponding future value calculator">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ps/FutureValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ps/FutureValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ps/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ps/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712932390446</updated>
-      <workItem from="1712932391541" duration="11713000" />
+      <workItem from="1712932391541" duration="12440000" />
     </task>
     <task id="LOCAL-00001" summary="set up classes for the three different calculators">
       <option name="closed" value="true" />
@@ -105,7 +104,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712948440220</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="calculate future value of deposit for corresponding future value calculator">
+      <option name="closed" value="true" />
+      <created>1712950569193</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1712950569193</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +124,7 @@
     <MESSAGE value="calculate monthly payment for mortgage loan" />
     <MESSAGE value="calculate the total interest accrued over the life of the loan" />
     <MESSAGE value="set up template for the future value calculator and receive data from user input" />
-    <option name="LAST_COMMIT_MESSAGE" value="set up template for the future value calculator and receive data from user input" />
+    <MESSAGE value="calculate future value of deposit for corresponding future value calculator" />
+    <option name="LAST_COMMIT_MESSAGE" value="calculate future value of deposit for corresponding future value calculator" />
   </component>
 </project>
