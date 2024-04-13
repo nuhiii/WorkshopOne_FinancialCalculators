@@ -1,5 +1,6 @@
 package com.ps;
 
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class MortgageCalculator {
@@ -17,17 +18,18 @@ public class MortgageCalculator {
         this.interestDecimal = this.interestPercent/100;
         System.out.print("Finally, please enter the length of the loan in years: ");
         this.loanLength = scanner.nextInt();
-        //scanner.close();
     }
     public double monthlyPayment(){
         double monthlyPayNumerator = principalAmount * (interestDecimal/monthInYear);
-        //System.out.println(monthlyPayNumerator);
         double monthlyPayDenominator = 1 - (Math.pow((1 + (interestDecimal/monthInYear)), ((monthInYear*-1) * loanLength)));
-        //System.out.println(monthlyPayDenominator);
         return monthlyPayNumerator/monthlyPayDenominator;
     }
     public double totalInterest(){
-        //double totalPayments = monthlyPayment() * (monthInYear * loanLength);
         return (monthlyPayment() * (monthInYear * loanLength)) - principalAmount;
+    }
+    public String printMessage(){
+        DecimalFormat formatter = new DecimalFormat("#,###.00");
+        return String.format("A $" + formatter.format(principalAmount) + " loan at " + interestPercent + "%% interest for " + loanLength + " years " +
+                        "would have a $" + formatter.format(monthlyPayment()) + "/mo payment with a total interest of $" + formatter.format(totalInterest()) + ".");
     }
 }

@@ -1,5 +1,6 @@
 package com.ps;
 
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class PresentValue {
@@ -17,13 +18,15 @@ public class PresentValue {
         this.expectedInterestDecimal = this.expectedInterestPercent / 100;
         System.out.print("Finally, please enter the number of years for pay out: ");
         this.payOutYears = scanner.nextInt();
-        //scanner.close();
     }
     public double presentValAnnuity(){
         double monthlyPayNumerator = (1 - Math.pow((1 + (expectedInterestDecimal/monthsInYear)), ((monthsInYear * -1) * payOutYears)));
-        System.out.println(monthlyPayNumerator);
         double monthlyPayDenominator = expectedInterestDecimal / monthsInYear;
-        System.out.println(monthlyPayDenominator);
         return monthlyPayOut * (monthlyPayNumerator/monthlyPayDenominator);
+    }
+    public String printMessage(){
+        DecimalFormat formatter = new DecimalFormat("#,###.00");
+        return String.format("To fund an annuity that pays $" + formatter.format(monthlyPayOut) + " monthly for " + payOutYears +
+                " years and earns an expected " + expectedInterestPercent + "%% interest, you would need to invest $" + formatter.format(presentValAnnuity()) + " today.");
     }
 }

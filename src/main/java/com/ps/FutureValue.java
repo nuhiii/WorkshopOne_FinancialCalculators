@@ -1,5 +1,6 @@
 package com.ps;
 
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class FutureValue {
@@ -18,7 +19,6 @@ public class FutureValue {
         this.interestDecimal = this.interestPercent / 100;
         System.out.print("Finally, please enter the number of years of accrual: ");
         this.numYears = scanner.nextInt();
-        //scanner.close();
     }
 
     public double futureValAmount() {
@@ -27,5 +27,10 @@ public class FutureValue {
 
     public double totalInterest() {
         return futureValAmount() - deposit;
+    }
+    public String printMessage(){
+        DecimalFormat formatter = new DecimalFormat("#,###.00");
+        return String.format("If you deposit $" + formatter.format(deposit) + " in a CD that earns " + interestPercent + "%% interest and matures in " + numYears + " years, " +
+                "your CD's ending balance will be $" + formatter.format(futureValAmount()) + " and you would have earned $" + formatter.format(totalInterest()) + " in interest.");
     }
 }

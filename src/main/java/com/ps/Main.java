@@ -9,25 +9,24 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         String choice;
         do {
-            System.out.print("Enter 1 for Mortgage calculator, 2 for Future Value, 3 for Present Value, or any other key to quit: ");
+            System.out.print("Enter 1 for Mortgage calculator, 2 for Future Value, " +
+                    "3 for Present Value, or any other key to quit: ");
             choice = scanner.nextLine();
             switch (choice){
                 case "1":
                     // Calculator One
                     MortgageCalculator mortgageCalculator = new MortgageCalculator();
-                    System.out.println(mortgageCalculator.monthlyPayment());
-                    System.out.println(mortgageCalculator.totalInterest());
+                    System.out.println(mortgageCalculator.printMessage());
                     break;
                 case "2":
                     // Calculator Two
                     FutureValue futureValue = new FutureValue();
-                    System.out.println(futureValue.futureValAmount());
-                    System.out.println(futureValue.totalInterest());
+                    System.out.println(futureValue.printMessage());
                     break;
                 case "3":
                     // Calculator Three
                     PresentValue presentValue = new PresentValue();
-                    System.out.println(presentValue.presentValAnnuity());
+                    System.out.println(presentValue.printMessage());
                     break;
             }
         } while (choice.equals("1") || choice.equals("2") || choice.equals("3"));
