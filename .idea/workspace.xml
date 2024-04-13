@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aee1466d-25d0-4a59-9743-01ba35e36b37" name="Changes" comment="complete last calculation that will find present value of annuity with a monthly basis">
+    <list default="true" id="aee1466d-25d0-4a59-9743-01ba35e36b37" name="Changes" comment="update main menu system to allow user to select calculator of choice">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ps/FutureValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ps/FutureValue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ps/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ps/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ps/MortgageCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ps/MortgageCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ps/PresentValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ps/PresentValue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712932390446</updated>
-      <workItem from="1712932391541" duration="20954000" />
+      <workItem from="1712932391541" duration="23016000" />
     </task>
     <task id="LOCAL-00001" summary="set up classes for the three different calculators">
       <option name="closed" value="true" />
@@ -140,7 +137,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712958273351</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="fix round off errors">
+      <option name="closed" value="true" />
+      <created>1712971065772</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1712971065772</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +172,8 @@
     <MESSAGE value="complete future value calculator with returning total interest gained from initial deposit" />
     <MESSAGE value="set up template for final calculator for present value and receive data from the user input" />
     <MESSAGE value="complete last calculation that will find present value of annuity with a monthly basis" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete last calculation that will find present value of annuity with a monthly basis" />
+    <MESSAGE value="fix round off errors" />
+    <MESSAGE value="update main menu system to allow user to select calculator of choice" />
+    <option name="LAST_COMMIT_MESSAGE" value="update main menu system to allow user to select calculator of choice" />
   </component>
 </project>
