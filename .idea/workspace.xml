@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aee1466d-25d0-4a59-9743-01ba35e36b37" name="Changes" comment="format string representations to output results">
+    <list default="true" id="aee1466d-25d0-4a59-9743-01ba35e36b37" name="Changes" comment="touch up and organize code with relevant comments">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ps/FutureValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ps/FutureValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ps/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ps/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ps/MortgageCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ps/MortgageCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ps/PresentValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ps/PresentValue.java" afterDir="false" />
     </list>
@@ -65,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712932390446</updated>
-      <workItem from="1712932391541" duration="26651000" />
+      <workItem from="1712932391541" duration="27346000" />
     </task>
     <task id="LOCAL-00001" summary="set up classes for the three different calculators">
       <option name="closed" value="true" />
@@ -163,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712976354962</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="touch up and organize code with relevant comments">
+      <option name="closed" value="true" />
+      <created>1712977216285</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1712977216285</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +201,7 @@
     <MESSAGE value="fix round off errors" />
     <MESSAGE value="update main menu system to allow user to select calculator of choice" />
     <MESSAGE value="format string representations to output results" />
-    <option name="LAST_COMMIT_MESSAGE" value="format string representations to output results" />
+    <MESSAGE value="touch up and organize code with relevant comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="touch up and organize code with relevant comments" />
   </component>
 </project>

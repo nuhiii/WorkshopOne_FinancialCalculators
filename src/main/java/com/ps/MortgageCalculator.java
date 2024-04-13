@@ -7,7 +7,7 @@ public class MortgageCalculator {
     float principalAmount;
     float interestPercent;
     float interestDecimal;
-    float loanLength;
+    int loanLength;
     final double monthInYear = 12;
     MortgageCalculator(){
         // Receive user input data

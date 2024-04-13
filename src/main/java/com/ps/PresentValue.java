@@ -7,7 +7,7 @@ public class PresentValue {
     float monthlyPayOut;
     float expectedInterestPercent;
     float expectedInterestDecimal;
-    float payOutYears;
+    int payOutYears;
     final double monthsInYear = 12;
     PresentValue(){
         // Receive user input data

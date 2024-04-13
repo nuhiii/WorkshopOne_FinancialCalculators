@@ -7,7 +7,7 @@ public class FutureValue {
     float deposit;
     float interestPercent;
     float interestDecimal;
-    float numYears;
+    int numYears;
     final double daysInYear = 365;
     FutureValue() {
         // Receive user input data
