@@ -30,6 +30,7 @@ public class Main {
                     break;
             }
         } while (choice.equals("1") || choice.equals("2") || choice.equals("3"));
+        // Exit message
         System.out.println("Thank you for using the Financial Calculator System!");
     }
 }
