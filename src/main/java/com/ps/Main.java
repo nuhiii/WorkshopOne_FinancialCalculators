@@ -5,13 +5,13 @@ public class Main {
         // Greet the User
         System.out.println("Welcome to the Financial Calculator System!");
         // Calculator One
-        //MortgageCalculator mortgageCalculator = new MortgageCalculator();
-        //System.out.println(mortgageCalculator.monthlyPayment());
-        //System.out.println(mortgageCalculator.totalInterest());
+        MortgageCalculator mortgageCalculator = new MortgageCalculator();
+        System.out.println(mortgageCalculator.monthlyPayment());
+        System.out.println(mortgageCalculator.totalInterest());
         // Calculator Two
-        //FutureValue futureValue = new FutureValue();
-        //System.out.println(futureValue.futureValAmount());
-        //System.out.println(futureValue.totalInterest());
+        FutureValue futureValue = new FutureValue();
+        System.out.println(futureValue.futureValAmount());
+        System.out.println(futureValue.totalInterest());
         // Calculator Three
         PresentValue presentValue = new PresentValue();
         System.out.println(presentValue.presentValAnnuity());

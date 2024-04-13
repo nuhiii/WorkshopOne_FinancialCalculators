@@ -7,7 +7,7 @@ public class PresentValue {
     float expectedInterestPercent;
     float expectedInterestDecimal;
     float payOutYears;
-    final int monthsInYear = 12;
+    final double monthsInYear = 12;
     PresentValue(){
         Scanner scanner = new Scanner(System.in);
         System.out.print("Please enter the monthly pay out for the annuity: $");
@@ -17,7 +17,7 @@ public class PresentValue {
         this.expectedInterestDecimal = this.expectedInterestPercent / 100;
         System.out.print("Finally, please enter the number of years for pay out: ");
         this.payOutYears = scanner.nextInt();
-        scanner.close();
+        //scanner.close();
     }
     public double presentValAnnuity(){
         double monthlyPayNumerator = (1 - Math.pow((1 + (expectedInterestDecimal/monthsInYear)), ((monthsInYear * -1) * payOutYears)));

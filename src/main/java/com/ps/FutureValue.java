@@ -7,7 +7,7 @@ public class FutureValue {
     float interestPercent;
     float interestDecimal;
     float numYears;
-    final int daysInYear = 365;
+    final double daysInYear = 365;
 
     FutureValue() {
         Scanner scanner = new Scanner(System.in);
@@ -18,7 +18,7 @@ public class FutureValue {
         this.interestDecimal = this.interestPercent / 100;
         System.out.print("Finally, please enter the number of years of accrual: ");
         this.numYears = scanner.nextInt();
-        scanner.close();
+        //scanner.close();
     }
 
     public double futureValAmount() {
