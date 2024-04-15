@@ -12,13 +12,28 @@ public class PresentValue {
     PresentValue(){
         // Receive user input data
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Please enter the monthly pay out for the annuity: $");
-        this.monthlyPayOut = scanner.nextFloat();
-        System.out.print("Now, please enter the expected interest rate: %");
-        this.expectedInterestPercent = scanner.nextFloat();
-        this.expectedInterestDecimal = this.expectedInterestPercent / 100;
-        System.out.print("Finally, please enter the number of years for pay out: ");
-        this.payOutYears = scanner.nextInt();
+        try {
+            System.out.print("Please enter the monthly pay out for the annuity: $");
+            this.monthlyPayOut = scanner.nextFloat();
+        }
+        catch(Exception e){
+            System.out.println("Please enter a valid number!");
+        }
+        try {
+            System.out.print("Now, please enter the expected interest rate: %");
+            this.expectedInterestPercent = scanner.nextFloat();
+            this.expectedInterestDecimal = this.expectedInterestPercent / 100;
+        }
+        catch(Exception e){
+            System.out.println("Please enter a valid number!");
+        }
+        try {
+            System.out.print("Finally, please enter the number of years for pay out: ");
+            this.payOutYears = scanner.nextInt();
+        }
+        catch(Exception e){
+            System.out.println("Please enter a valid integer!");
+        }
     }
     // Calculate present value of annuity with monthly basis
     public double presentValAnnuity(){

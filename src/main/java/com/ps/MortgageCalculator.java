@@ -12,13 +12,28 @@ public class MortgageCalculator {
     MortgageCalculator(){
         // Receive user input data
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Please enter the principal amount for the mortgage: $");
-        this.principalAmount = scanner.nextFloat();
-        System.out.print("Now, please enter the interest rate: %");
-        this.interestPercent = scanner.nextFloat();
-        this.interestDecimal = this.interestPercent/100;
-        System.out.print("Finally, please enter the length of the loan in years: ");
-        this.loanLength = scanner.nextInt();
+        try {
+            System.out.print("Please enter the principal amount for the mortgage: $");
+            this.principalAmount = scanner.nextFloat();
+        }
+        catch(Exception e){
+            System.out.println("Please enter a valid number!");
+        }
+        try {
+            System.out.print("Now, please enter the interest rate: %");
+            this.interestPercent = scanner.nextFloat();
+            this.interestDecimal = this.interestPercent / 100;
+        }
+        catch(Exception e){
+            System.out.println("Please enter a valid number!");
+        }
+        try {
+            System.out.print("Finally, please enter the length of the loan in years: ");
+            this.loanLength = scanner.nextInt();
+        }
+        catch(Exception e){
+            System.out.println("Please enter a valid integer!");
+        }
     }
     // Calculate monthly mortgage payment
     public double monthlyPayment(){
